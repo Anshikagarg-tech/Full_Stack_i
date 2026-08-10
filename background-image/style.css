@@ -1,0 +1,44 @@
+```css
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    background-image: url("https://images.unsplash.com/photo-1500534623283-312aade485b7");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* Background attachment */
+    background-attachment: fixed;
+}
+
+.hero {
+    height: 600px;
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.hero h1 {
+    font-size: 55px;
+}
+
+.hero p {
+    font-size: 22px;
+}
+
+.content {
+    background-color: white;
+    color: black;
+    padding: 100px;
+    text-align: center;
+}
+
+.content p {
+    max-width: 700px;
+    margin: 50px auto;
+    line-height: 2;
+}
+```
