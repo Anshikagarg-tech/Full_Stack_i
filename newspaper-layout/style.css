@@ -1,0 +1,63 @@
+```css
+body {
+    margin: 0;
+    background-color: #ddd;
+    font-family: Georgia, serif;
+}
+
+.newspaper {
+    width: 90%;
+    margin: 30px auto;
+    background-color: white;
+    padding: 30px;
+}
+
+header {
+    text-align: center;
+    border-bottom: 4px solid black;
+}
+
+header h1 {
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.main-heading {
+    text-align: center;
+    font-size: 32px;
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+}
+
+.news {
+    display: flex;
+    gap: 25px;
+}
+
+article {
+    flex: 1;
+    padding: 15px;
+    border-right: 1px solid black;
+}
+
+article:last-child {
+    border-right: none;
+}
+
+article h2 {
+    font-size: 24px;
+}
+
+article p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+footer {
+    margin-top: 30px;
+    border-top: 2px solid black;
+    text-align: center;
+    padding-top: 15px;
+}
+```
+
