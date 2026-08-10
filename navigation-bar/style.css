@@ -1,0 +1,33 @@
+```css
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #222;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: white;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.links a:hover {
+    color: #00bfff;
+}
+
+section {
+    text-align: center;
+    padding: 150px 20px;
+}
+```
