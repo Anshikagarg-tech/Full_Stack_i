@@ -1,0 +1,220 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5),
+                        rgba(0, 0, 0, 0.6)),
+        url("https://d19fa2ka4qs0b.cloudfront.net/manual/video-styles/images/japanese-anime-a-landscape-0.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/* =========================
+   STICKY NAVIGATION
+   ========================= */
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    background: rgba(20, 10, 40, 0.95);
+    padding: 18px;
+    text-align: center;
+
+    border-bottom: 2px solid #ff66cc;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff66cc;
+}
+
+
+/* =========================
+   HERO SECTION
+   ========================= */
+
+.hero {
+    min-height: 500px;
+    text-align: center;
+    padding: 140px 20px 100px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    color: #ff66cc;
+    text-shadow: 3px 3px 10px black;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+/* =========================
+   RELATIVE POSITION
+   ========================= */
+
+.about {
+    position: relative;
+
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+
+    background: rgba(30, 20, 50, 0.9);
+    border-radius: 15px;
+}
+
+
+/* =========================
+   ABSOLUTE POSITION
+   ========================= */
+
+.anime-badge {
+    position: absolute;
+
+    top: -20px;
+    right: 25px;
+
+    background: #ff66cc;
+    color: white;
+
+    padding: 10px 20px;
+    border-radius: 20px;
+
+    font-weight: bold;
+}
+
+.about h2 {
+    color: #ff99dd;
+    margin-bottom: 15px;
+}
+
+
+/* =========================
+   GENRE CARDS
+   ========================= */
+
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.container h2 {
+    text-align: center;
+    color: #ff99dd;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 280px;
+    padding: 25px;
+
+    background: rgba(25, 15, 45, 0.9);
+    border: 1px solid #ff66cc;
+    border-radius: 15px;
+}
+
+.card h3 {
+    color: #ff66cc;
+    margin-bottom: 12px;
+}
+
+
+/* =========================
+   STICKY INFORMATION BOX
+   ========================= */
+
+.sticky-note {
+    position: sticky;
+    top: 80px;
+
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 25px;
+
+    background: rgba(100, 40, 100, 0.9);
+
+    border-left: 6px solid #ff66cc;
+}
+
+
+/* =========================
+   CONTENT
+   ========================= */
+
+.content {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px 150px;
+
+    line-height: 1.8;
+}
+
+.content h2 {
+    color: #ff99dd;
+    margin-bottom: 20px;
+}
+
+.content p {
+    margin-bottom: 25px;
+}
+
+
+/* =========================
+   FIXED BUTTON
+   ========================= */
+
+.top-button {
+    position: fixed;
+
+    bottom: 25px;
+    right: 25px;
+
+    background: #ff66cc;
+    color: white;
+
+    padding: 15px 20px;
+    border-radius: 50px;
+
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+footer {
+    text-align: center;
+    padding: 30px;
+
+    background: rgba(15, 5, 30, 0.95);
+    color: #ddd;
+}
+
